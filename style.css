@@ -7,7 +7,7 @@
 
 body,html{
     height:100%;
-    overflow:hidden;
+    overflow-x:hidden;
     background-color:orange;
 }
 
@@ -37,18 +37,43 @@ form button{
     cursor:pointer;
 }
 
+form button:hover{
+    background-color:rgb(148, 145, 145);
+}
+
 table{
+    border:2px solid black;
     width:100%;
-    max-width:500px;
+    max-width:550px;
     margin:20px 0;
     border-collapse:collapse;
+    padding:0 2%;
+   box-shadow: 4px 2px 16px 6px rgba(0,0,0,0.75);
 }
 
 table tbody td{
-    padding:3px 0;
+    padding:5px 0;
 }
 
 footer{
-    position:absolute;
-    bottom:0;
+    display:block;
+}
+
+@media screen and (max-width:768px){
+    .conteiner{
+        width:100%;
+        max-width:100%;
+    }
+    form input{
+        width:100%;
+        max-width:86%;
+    }
+    form button{
+        width:100%;
+        max-width:68%;
+    }
+    table{
+        margin:20px auto;
+        display:block;
+    }
 }
