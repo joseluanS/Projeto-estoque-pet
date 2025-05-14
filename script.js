@@ -3,12 +3,12 @@ import { getFirestore, collection, getDocs, addDoc, deleteDoc, doc } from "https
 
 // Configuração do Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyBRB9op35_GbU4sVCXD17c5RtOUUT4ng40",
-    authDomain: "projetopet-e5238.firebaseapp.com",
-    projectId: "projetopet-e5238",
-    storageBucket: "projetopet-e5238.firebasestorage.app",
-    messagingSenderId: "376651414881",
-    appId: "1:376651414881:web:6d39d52ca29de0fafad920"
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
 };
 
 // Inicializar Firebase
